@@ -7,11 +7,13 @@
 
 Some quick helper scripts that I use in Ubuntu; added in `.bashrc` as aliases.
 
-## Arabic Handling
+## Arabic
 
 Dealing with Arabic strings.
 
 ### aranum
+
+Converts Arabic-to-Indian numerals and vice-versa.
 
 Input:
 ```bash
@@ -24,6 +26,8 @@ Output:
 ```
 
 ### arastrip
+
+Strips away common Arabic tashkeel real quick.
 
 Input:
 ```bash

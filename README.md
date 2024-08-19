@@ -11,7 +11,7 @@ Some quick helper scripts that I use in Ubuntu; added in `.bashrc` as aliases.
 
 Dealing with Arabic strings.
 
-### aranum
+### `aranum`
 
 Converts Arabic-to-Indian numerals and vice-versa.
 
@@ -25,7 +25,7 @@ Output:
 ١٢٣٤
 ```
 
-### arastrip
+### `arastrip`
 
 Strips away common Arabic tashkeel real quick.
 

@@ -18,10 +18,10 @@ alias update='sudo apt update && sudo apt upgrade && sudo flatpak update && sudo
 
 ### `clean`
 
-Cleans off various directories of temporary files and dependency accumulated update caches.
+Cleans off various directories of temporary files and dependency accumulated update caches. Moreover, it does clean the system logs (keeping only the last 7 days') that could do accumulate size over time.
 
 ```bash
-alias clean='sudo rm -rf /var/lib/snapd/cache/* && flatpak uninstall --unused && sudo rm -rf /tmp/* /var/tmp/*'
+alias clean='sudo rm -rf /var/lib/snapd/cache/* && flatpak uninstall --unused && sudo rm -rf /tmp/* /var/tmp/* && sudo journalctl --vacuum-time=7d'
 ```
 
 ### `gdmres`

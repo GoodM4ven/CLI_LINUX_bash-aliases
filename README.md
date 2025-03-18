@@ -201,6 +201,14 @@ alias pest='f() { bunx blade-formatter --write "resources/views/**/*.blade.php";
 > [!NOTE]
 > Possible `pest` **arguments** can be passed to the command as well.
 
+### `bench`
+
+Calls Testbench's Artisan script that is used for simulating a Laravel environment and test packages.
+
+```bash
+alias bench='f() { ./vendor/bin/testbench "$1"; }; f'
+```
+
 ### `lara` (Extra)
 
 It's just a shortcut to run [lara-stacker](https://github.com/GoodM4ven/CLI_LARAVEL_lara-stacker) CLI, in order to manage simultaneous development of TALL stack apps on Linux.

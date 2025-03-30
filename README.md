@@ -87,8 +87,12 @@ Removes files/folders from the cached version control, when they have been commi
 alias girm='f() { git rm -r --cached "$1"; }; f'
 ```
 
+</div>
+
 > [!IMPORTANT]  
 > It obviously needs the correct path of a file/directory, passed as an argument, in order to be removed.
+
+<div align=""left>
 
 ### `chest`
 
@@ -198,8 +202,12 @@ Executes a huge amount of processes regarding testing the TALL app, including:
 alias pest='f() { bunx blade-formatter --write "resources/views/**/*.blade.php"; bunx prettier --write "resources/js/**/*.js" "resources/css/**/*.css"; ./vendor/bin/pint; ./vendor/bin/phpstan; ./vendor/bin/pest "$1" --parallel --processes=8 --log-junit phpunit.results.xml; }; f'
 ```
 
+</div>
+
 > [!NOTE]
 > Possible `pest` **arguments** can be passed to the command as well.
+
+<div align=""left>
 
 ### `bench`
 

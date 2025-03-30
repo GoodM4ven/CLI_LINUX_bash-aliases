@@ -29,7 +29,7 @@ alias clean='sudo rm -rf /var/lib/snapd/cache/* && flatpak uninstall --unused &&
 Attempts to recover from Gnome-Shell display manager (GDM) crashes... -Which usually fails anyway!
 
 ```bash
-alias gdmres='sudo systemctl stop gdm3 && sudo systemctl restart display-manager && sudo systemctl start gdm3 && sudo loginctl terminate-user $(whoami)'
+alias gdmres='sudo systemctl stop gdm3 && sudo systemctl restart display-manager && sudo systemctl start gdm3 && sudo loginctl terminate-user $(whoami) && sudo reboot now'
 ```
 
 

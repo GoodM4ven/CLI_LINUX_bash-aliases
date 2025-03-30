@@ -102,8 +102,12 @@ Stashes the current changes local changes properly; meaning that it's done inclu
 alias chest='git stash push -u'
 ```
 
+</div>
+
 > [!NOTE]
 > Who would have thought that this was not the default bahavior to `git stash push` command, am I right?! (curbs furiousness)
+
+<div align=""left>
 
 ### `grit`
 
